@@ -1,0 +1,123 @@
+body {
+  font-family: "Spartan", sans-serif;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+.top-section {
+  display: flex;
+}
+
+.top-left-section {
+}
+
+.heading {
+  width: 295px;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 43px;
+}
+
+.description {
+  font-weight: 300;
+  width: 400px;
+  color: hsl(303, 10%, 53%);
+  line-height: 25px;
+}
+
+.top-right-section {
+  width: 100%;
+  margin-left: 300px;
+}
+
+.rating {
+  width: 353px;
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  padding: 10px;
+}
+
+.review {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.report {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.tech {
+  margin-left: 150px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.bottom-section {
+  margin-top: 50px;
+  display: flex;
+}
+
+.person-card {
+  width: 350px;
+  height: 200px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 15px;
+  color: white;
+  padding: 25px;
+}
+
+.customer {
+  color: #ee68a4;
+  margin-top: 4px;
+}
+
+.name {
+  color: #f7f2f7;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.card-header {
+  display: flex;
+}
+.person-card .left {
+}
+
+.person-card.middle {
+  margin: 30px;
+}
+
+.person-card.right {
+  margin-top: 60px;
+}
+
+.feedback {
+  line-height: 25px;
+  display: inline-block;
+  font-size: 15px;
+  color: #ffffff;
+  width: 335px;
+}
+
+.img {
+  border-radius: 100%;
+  float: left;
+  height: 50px;
+  padding: 10px 15px 20px 10px;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
