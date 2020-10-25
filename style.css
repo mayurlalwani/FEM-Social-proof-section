@@ -31,6 +31,11 @@ h1 {
 .top-right-section {
   width: 100%;
   margin-left: 300px;
+  font-size: 15px;
+}
+
+.img-section {
+  display: flex;
 }
 
 .rating {
@@ -38,6 +43,8 @@ h1 {
   background-color: hsl(300, 24%, 96%);
   color: hsl(300, 43%, 22%);
   padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .review {
@@ -53,7 +60,7 @@ h1 {
 }
 
 .tech {
-  margin-left: 150px;
+  margin-left: 95px;
   margin-top: 10px;
   font-weight: 700;
 }
@@ -120,4 +127,73 @@ h1 {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 30px;
+    font-family: "Spartan", sans-serif;
+  }
+
+  .top-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    width: 100%;
+  }
+  .description {
+    width: 300px;
+  }
+  .top-right-section,
+  .report,
+  .review,
+  .tech {
+    margin: 0;
+  }
+  .rating {
+    margin-top: 10px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .person-card {
+    width: 275px;
+    height: 200px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 15px;
+    color: white;
+    padding: 25px;
+  }
+
+  .img-section {
+    text-align: center;
+  }
+
+  .feedback {
+    line-height: 25px;
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    width: 265px;
+    margin-top: 0px;
+  }
+
+  .person-card.middle {
+    margin-left: 0px;
+  }
+
+  .person-card.right {
+    margin-top: 5px;
+  }
+  .rating-description {
+    margin-top: 10px;
+  }
 }
