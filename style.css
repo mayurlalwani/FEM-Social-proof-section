@@ -9,6 +9,7 @@ body {
 }
 
 .top-left-section {
+  background-image: url("./images/bg-pattern-top-desktop.svg");
 }
 
 .heading {
@@ -138,6 +139,7 @@ h1 {
   .top-section {
     display: flex;
     flex-direction: column;
+    background-image: url("./images/bg-pattern-top-mobile.svg");
   }
   .heading {
     width: 100%;
@@ -165,7 +167,7 @@ h1 {
     flex-direction: column;
   }
   .person-card {
-    width: 275px;
+    width: 270px;
     height: 200px;
     background-color: hsl(300, 43%, 22%);
     border-radius: 15px;
